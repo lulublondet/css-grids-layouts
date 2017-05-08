@@ -1,0 +1,66 @@
+ * {
+ 	box-sizing: border-box;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+
+ .contenedor{
+ 	width: 100%;
+ 	max-width: 960px;
+	margin: 0 auto;
+ 	margin-top: 2%;
+ 	background: #fff;
+ 	border: 1px solid black;
+ 	padding: 1%;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+a {
+	float: right;
+}
+
+.fila {
+	padding: 2%;
+	overflow: auto;	
+}
+
+.columnas {
+	float: left;
+}
+
+.fila.top .columnas{
+	background: #666;	
+}
+
+.fila.top .columnas:first-child{
+	width: 66.6%;
+	height: 319.68px;
+}
+
+.fila.top .columnas:nth-child(2n){
+	width: 31.3%;
+	height: 319.68px;
+	margin-left: 2%;
+
+}
+
+.fila.middle .columnas{
+	height: 319.68px;
+}
+
+.fila.bottom .columnas {
+	width: 33.3%;
+	height: 319.68px;
+	background-color: #999;
+	float: right;
+}
+
+
+
+
+

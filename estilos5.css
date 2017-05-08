@@ -1,0 +1,48 @@
+* {
+ 	box-sizing: border-box;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+h2, a {
+	text-align: center;
+	
+}
+
+a {
+	float: right;
+}
+
+ .contenedor {
+ 	width: 100%;
+ 	max-width: 960px;
+ 	margin: 0 auto;
+ 	margin-top: 2%;
+ 	background: #f3f3f3;
+}
+
+ .fila {
+
+ 	overflow: auto;
+ 	background: white;
+ 
+
+ }
+
+ .columnas {
+ 	width: 29.3%;
+ 	height: 281.28px;
+ 	margin: 2%;
+ 	float: left;
+ 	background-color: #666;
+ 	
+ }
+
+.fila.tres-columnas .columnas:nth-child(3n){
+	background-color: #999;
+}
+
+.fila.una-columna .columnas {
+	float: right;
+	background-color: #999;
+}

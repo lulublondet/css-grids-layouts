@@ -1,0 +1,56 @@
+ * {
+ 	box-sizing: border-box;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ h2, a {
+	text-align: center;
+	
+}
+
+h2 {
+	padding: 2px;
+}
+
+a {
+	float: right;
+
+}
+
+
+ .contenedor{
+ 	width: 100%;
+ 	max-width: 960px;
+	margin: 0 auto;
+ 	margin-top: 2%;
+ 	background: #f3f3f3;
+}
+
+
+section {	
+	overflow: auto;
+	background-color: white;
+	padding: 2%;	
+}
+
+.columna {
+	width: 98%;
+	margin: 1%;
+	float: left;
+	background-color: #666;
+}
+
+.fila-uno .columna {
+	height: 639.36px;	
+}
+
+
+.fila-dos .columna {
+	width: 33.3%;
+	height: 319.68px;
+	background-color: #999;
+
+}
+
+

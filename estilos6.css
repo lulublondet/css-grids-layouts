@@ -1,0 +1,41 @@
+* {
+ 	box-sizing: border-box;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ .contenedor {
+ 	width: 100%;
+ 	max-width: 960px;
+ 	margin: 0 auto;
+ 	margin-top: 2%;
+ 	background: white;
+ 	border: 1px solid black;
+ 	
+}
+
+
+.fila {
+	border: 1px solid black;
+	overflow: auto;
+	clear: both;
+}
+
+.columna {
+	float: left;
+
+}
+
+.fila.dos-columnas .columna:first-child {
+	width: 31.3%;
+	margin-right: 2%;	
+	height: 319.68px;
+	background-color: #222;	
+}
+
+.fila.dos-columnas .columna:nth-child(2n){
+	width: 33.3%;
+	height: 319.68px;
+	background-color: #ccc;
+	position: relative;
+}

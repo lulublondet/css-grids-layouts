@@ -1,0 +1,55 @@
+ * {
+ 	  box-sizing: border-box;
+ 	  margin: 0;
+ 	  padding: 0;
+ 	}
+
+  	.contenedor {
+ 		width: 100%;
+ 		max-width: 960px;
+		margin: 0 auto;
+ 		margin-top: 2%;
+ 		background: #fff;
+ 		border: 1px solid black;
+ 		padding: 2%;
+	}
+
+	h2 {
+		text-align: center;
+		padding-bottom: 2%;
+	}
+
+	a {
+		float: right;
+	}
+
+	
+	.fila {
+		overflow: auto;
+		margin-left: 2%;
+	}
+
+	.fila.una-columna .columna{
+		width: 98%;
+		height: 301.36px;
+		background: #333;
+		margin-bottom: 2%;
+	}
+
+
+	.fila.tres-columnas .columna{
+		width: 31.3%;
+		height: 639.36px;
+		background: #ccc;
+		float: left;
+		margin-left: 2%;
+	}
+	
+	.fila.tres-columnas .columna:first-child{
+		margin-left: 0;
+	}
+
+		
+
+	
+	
